@@ -35,6 +35,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'ferapp.apps.FerappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -44,6 +45,8 @@ INSTALLED_APPS = [
     'user_app',
     'rest_framework',
     'rest_framework.authtoken',
+    'corsheaders',
+    
 ]
 
 MIDDLEWARE = [
