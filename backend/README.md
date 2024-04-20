@@ -5,7 +5,7 @@ To set up the back end of the application, follow these steps:
 1. Open a new terminal.
 2. Navigate to the `backend` directory using the command `cd backend`.
 3. Install the required dependencies by running `pip install -r requirements.txt`.
-4. Navigate to the `server_fer` directory using the command `cd server_fer`.
+4. Navigate to the `mysite` directory using the command `cd mysite`.
 5. Initiate the back end server by running `python manage.py runserver`.
 
 # Reference
