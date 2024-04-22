@@ -48,7 +48,7 @@ button {
 	border-radius: 20px;
 	border: 1px solid #F7F5F5;
 	background-color: #FF4B2B;
-	color: #FFFFFF;
+	color: #333;
 	font-size: 12px;
 	font-weight: bold;
 	padding: 12px 45px;
@@ -87,6 +87,7 @@ input {
 	padding: 12px 15px;
 	margin: 8px 0;
 	width: 100%;
+	color: #333
 }
 
 .container {
@@ -213,18 +214,23 @@ input {
 
 .social-container {
 	margin: 20px 0;
-}
-
-.social-container a {
+	display: flex; /* Ensure flex layout for alignment */
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+  }
+  
+  .social-container a {
 	border: 1px solid #DDDDDD;
 	border-radius: 50%;
 	display: inline-flex;
 	justify-content: center;
-	align-items: center;
-	margin: 0 5px;
+	align-items: center; /* Align content in the center */
+	margin: 0 5px; /* Consistent horizontal spacing */
 	height: 40px;
 	width: 40px;
-}
+	text-decoration: none; /* Ensures text isn't underlined */
+  }
+  
 
 footer {
     background-color: #333;
